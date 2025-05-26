@@ -1,0 +1,106 @@
+body {
+    background:#f7f8fa;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper{
+    margin: 0 auto;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+section {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+section article {
+    width: 400px;
+    margin: 5px 10px;
+    background: white;
+    border: 1px solid rgb(208, 208, 208);
+    padding: 30px;
+    line-height: 25px;
+    color: #535861;
+}
+
+.imag1 {
+    background: url("img18/bred.png");
+    width: 90px;
+    height: 90px;
+    background-size: cover;
+    border-radius: 50px;
+    margin: 25px;
+    float: left;
+}
+.imag2 {
+    background: url("img18/anjel.jpg");
+    width: 90px;
+    height: 90px;
+    background-size: cover;
+    border-radius: 50px;
+    margin: 25px;
+    float: left;
+}
+.imag3 {
+    background: url("img18/yill.png");
+    width: 90px;
+    height: 90px;
+    background-size: cover;
+    border-radius: 50px;
+    margin: 25px;
+    float: left;
+}
+
+.rating {
+    display: inline-block;
+    font-size: 0;
+    margin-bottom: 25px;
+}
+.rating span {
+    padding: 0;
+    font-size: 20px;
+    line-height: 1;
+    color: lightgray;
+}
+.rating > span::before {
+    content: '★';
+}
+.rating > span.active {
+    color: rgb(255, 223, 45);
+}
+.name {
+    margin-top: 30px;
+    color: black;
+}
+.niz {
+    color:#00718c;
+    justify-content: end;
+}
+h3 span {
+    color: #00718c;
+    font-weight: 600;
+}
+.niz1 {
+    line-height: 10px;
+}
+.niz span {
+    font-size: 10px;
+    vertical-align: text-top;
+    padding: 3px;
+}
+.ns {
+    margin-top: 30px;
+    line-height: 10px;
+}
+.ns1 {
+    margin-top: 50px;
+    line-height: 10px;
+}
+h2, h3 {
+    font-weight: 100;
+}
+h3 {
+    font-size: 18px;
+    letter-spacing: 2px;
+}
