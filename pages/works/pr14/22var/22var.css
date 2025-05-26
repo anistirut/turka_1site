@@ -1,0 +1,20 @@
+body{
+    color: #fff;
+    font: 600 24px;
+}
+.box{
+    filter: blur(0);
+    background:plum;
+    border-radius: 6px;
+    cursor: pointer;
+    height: 95px;
+    line-height: 95px;
+    text-align: center;
+    transition-property: all;
+    transition-duration: 2.5s;
+    transition-timing-function: ease-in-out;
+    width: 95px;
+}
+.box:hover{
+    filter: blur(100px);
+}
