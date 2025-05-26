@@ -1,0 +1,381 @@
+@font-face {
+    font-family: OpenSans ;
+    src: url("fonts16/OpenSans-Italic-VariableFont_wdth\,wght.ttf");
+}
+@font-face {
+    font-family: Roboto ;
+    src: url("fonts16/Roboto-Italic-VariableFont_wdth\,wght.ttf");
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 1400px;
+    margin: 0 auto;
+}
+
+body {
+    color: #333;
+}
+
+/* ----------------------------------------------------------*/
+.container1 {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 22px;
+    margin-bottom: 65px;
+    margin-top: 60px;
+    margin-right: 60px;
+}
+header {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px 0;
+}
+.logo{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 0;
+    margin-top: 30px;
+    margin-bottom: 35px;
+    margin-left: 20px;
+    text-align: left;
+}
+.logo2{
+    margin: 0 auto;
+    width: 20px;
+    height: 20px;
+}
+
+.logo h1 {
+    font-size: 25px;
+    color: #333;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #007bff;
+}
+
+.search-icon {
+    cursor: pointer;
+}
+
+/* --------------------------------------------------------------*/
+.web {
+    background-image: url('img16/float.png');
+    height: 652px;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+    position: relative;
+    gap: 90px;
+}
+
+.web .container {
+    position: relative;
+    padding: 50px;
+}
+
+.web h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.web p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 50px;
+}
+
+.hire {
+    background-color: #00c8a8;
+    width: 220px;
+    height: 70px;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.hire:hover {
+    background-color: #00bfa5;
+}
+
+.our {
+    width: 220px;
+    height: 70px;
+    color: #000;
+    border: 2px solid #000;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.scroll-down {
+    margin-top: 50px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+/*---------------------------------------------------- */
+.about {
+    height: 540px;
+    background-color: #f0f8ff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.icon {
+    text-align: center;
+}
+
+.icon img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.icon h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.icon p {
+    font-size: 15px ;
+}
+.icons{
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    line-height: 20px;
+    gap: 90px;
+    margin-top: 40px;
+}
+.btn-more{
+    background-color:#ffffff;
+    border-radius: 2px solid black;
+    width: 150px;
+    height: 55px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    transition: border-radius 0.3s ease;
+    transition: color 0.3s ease;
+}
+.btn-more:hover{
+    background-color:#00897b ;
+    border-radius: 3px solid white;
+    color: #ffffff ;
+}
+
+/*----------------------------------------*/
+.services {
+    
+    display: grid;
+    background-color: #e6fffa;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.services p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.service {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    gap: 31px;
+}
+
+.service-card {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    height: 390px;
+    width: 370px;
+    justify-content: center;
+}
+
+.service-card:hover {
+    background-color: #00897b;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px white;
+    color: #ffffff;
+}
+
+.service-card img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.service-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight:bold;
+}
+
+.service-card p {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+/*-------------------------------------------*/
+.contact {
+    background:url('img16/footer.png');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.item {
+    text-align: center;
+}
+
+.item img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.item p {
+    font-size: 16px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form textarea {
+    resize: vertical;
+}
+
+form button {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    padding: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #f0f0f0;
+}
+.form{
+    padding: 0 auto; 
+}
+.name{
+    width: 500px;
+    height: 84px;
+    margin: 0 auto;
+}
+.massage{
+    width:1031px ;
+    height:323px ;
+    margin: 0 auto;
+}
+.send{
+    width: 220px;
+    height: 70px;
+    margin: 0 auto;
+    margin-right: 180px;
+    border-radius: 10px;
+}
+/*--------------------------------------------------*/
+footer {
+    background-color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    font-size: 15px;
+    font-family: Roboto;
+    font-weight: bold;
+}
